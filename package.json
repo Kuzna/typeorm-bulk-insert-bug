@@ -1,0 +1,24 @@
+{
+  "name": "typeorm-bulk-insert-bug",
+  "version": "0.0.1",
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm-sample",
+    "typeorm-example"
+  ],
+  "devDependencies": {
+    "@types/node": "^9.6.5",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "pg": "^7.9.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.16"
+  },
+  "scripts": {
+    "start": "tsc && node src/index.js",
+    "typeorm": "./node_modules/.bin/typeorm "
+  }
+}
